@@ -15,7 +15,7 @@ function Card ({ item }) {
                     <img src="/pin.png" alt="" />
                     <span>{item.address}</span>
                 </p>
-                <p className="price">&#8358; {item.price}</p>
+                <p className="price">&#8358; {item.price.toLocaleString()}</p>
                 <div className="bottom">
                     <div className="features">
                         <div className="feature">
