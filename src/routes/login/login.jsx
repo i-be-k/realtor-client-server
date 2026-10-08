@@ -27,9 +27,9 @@ function Login() {
                 password,
             });
 
-            localStorage.setItem("user", JSON.stringify(res.data));
+            // localStorage.setItem("user", JSON.stringify(res.data));
 
-            // updateUser(res.data)
+            updateUser(res.data)
 
             navigate("/");
         } catch (err) {
