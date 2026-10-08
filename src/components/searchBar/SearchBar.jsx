@@ -40,7 +40,7 @@ function SearchBar() {
                 </Link>
             </form>
         </div>
-    )
+    );
 }
 
 export default SearchBar;
